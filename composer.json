@@ -1,0 +1,7 @@
+{
+    "name": "yourusername/simple-chat-app",
+    "description": "A simple PHP chat application.",
+    "require": {
+        "php": "^7.4 || ^8.0"
+    }
+}
