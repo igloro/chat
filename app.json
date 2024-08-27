@@ -1,0 +1,15 @@
+{
+  "name": "Simple Chat App",
+  "description": "A simple PHP chat application.",
+  "repository": "https://github.com/igloro/chat",
+  "keywords": ["php", "chat", "heroku"],
+  "buildpacks": [
+    {
+      "url": "heroku/php"
+    }
+  ],
+  "env": {},
+  "scripts": {
+    "postdeploy": "php setup.php"
+  }
+}
